@@ -59,3 +59,32 @@ ul {
 .box li a:hover {
   color: #c8169c;
 }
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: auto;
+}
+
+form input,
+form textarea,
+form button {
+  padding: 20px;
+  margin-bottom: 20px;
+  outline: none;
+  border: none;
+  background-color: #ddd;
+  width: 100%;
+}
+
+form button {
+  background-color: #c8169c;
+  cursor: pointer;
+  color: #fff;
+  width: 104%;
+}
+
+h2 {
+  text-align: center;
+}
